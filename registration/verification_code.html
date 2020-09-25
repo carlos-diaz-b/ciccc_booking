@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <link rel="stylesheet" type="text/css" href="css/style2.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>Verification </title>
+  <style> 
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-image: url("images/background.jpg") ;
+   background-repeat: no-repeat;
+ 
+ background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+
+  .navbar {
+  width: 100%;
+  background-color:#283B8A;
+  overflow: auto;
+
+}
+
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #283B8A; }
+
+
+@media screen and (max-width:700px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.wrapper {
+
+align-self: center;
+text-align: center;
+align-items: center;
+margin-right: auto;
+margin-right: auto;
+
+}
+
+.formtitle {
+  font-size: 30px;
+  margin-top: 100px;
+  font-style: bold;
+  align-self: center;
+text-align: center;
+align-items: center;
+margin-right: auto;
+margin-right: auto;
+}
+
+.inputtext {
+
+  font-size: 20px;
+  font-style: bold;
+ align-self: center;
+text-align: center;
+align-items: center;
+margin-right: auto;
+margin-right: auto;
+
+}
+
+  .terms {
+
+  background-image: url("images/background.jpg");
+  width:800px;
+  height: 500px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: bold;
+  font-weight: 40px;
+
+}
+
+input[type=button] {
+  background-color: #283B8A;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#283B8A; 
+  color: white;
+  
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+
+    <a class="active" href="login.php"><img src="images/cornerstonelogo.jpeg" style="height: 70px;"></a>
+     <h4 style="color: white" style="font-size: 40px;">CornerStone Booking System </h4> 
+</div>
+
+<div class="wrapper">
+            <form class="form1">
+                <div class="formtitle">
+                    Enter verification code to proceed
+                </div>
+
+                <div class="input nobottomborder">
+                    <div class="inputtext">
+                        code:
+                    </div>
+
+                    <div class="inputcontent">
+                        <input type="password" id="password" style="border-radius:8px " /><br />
+                    </div>
+                </div>
+
+                <div class="buttons" >
+                    <input class="orangebutton" type="button" value="SUMBIT" style="border-radius: 8px" onclick="checkPassword()" 
+                    style="font-size: 30px" style="border-radius:10px" />
+                </div>
+            </form>
+        </div>
+
+        <footer class="footer"><p>&copy; 2020 ciccc.com  Powered by Carlos A. Diaz <p></footer>
+
+       <script>
+      function checkPassword(){
+       if(document.getElementById('password').value == 'hm20ya20'){
+        
+          document.location.href = "Yahya_calendar.html";
+
+        } else if (document.getElementById('password').value == 'esl20ab20') {
+           
+          document.location.href = "Abbas_calendar.html";
+         } else if (document.getElementById('password').value == 'esl20me220') {
+           
+          document.location.href = "Mehdi_calendar2.html";
+        } else if (document.getElementById('password').value == 'esl20me20') {
+           
+          document.location.href = "Mehdi_calendar.html";
+        } else if (document.getElementById('password').value == 'esl20jo20') {
+           
+          document.location.href = "Joe_calendar.html";
+        } else if (document.getElementById('password').value == 'esl20maam20') {
+           
+          document.location.href = "Maryam_calendar.html";
+        } else if (document.getElementById('password').value == 'crs20mar20') {
+           
+          document.location.href = "Martin_calendar.html";
+         } else if (document.getElementById('password').value == 'crs20mar220') {
+           
+          document.location.href = "Martin_calendar2.html";
+        } else if (document.getElementById('password').value == 'ibm20ju20') {
+           
+          document.location.href = "Juan_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20ann20') {
+           
+          document.location.href = "Anne_calendar.html";
+        } else if (document.getElementById('password').value == 'crs20ami20') {
+           
+          document.location.href = "Amir_calendar.html";
+        } else if (document.getElementById('password').value == 'hm20sh20') {
+           
+          document.location.href = "Shaik_calendar.html";
+        } else if (document.getElementById('password').value == 'hm20and20') {
+           
+          document.location.href = "Andrea_calendar.html";
+        } else if (document.getElementById('password').value == 'wmad20der20') {
+           
+          document.location.href = "Derrick_calendar.html";
+        } else if (document.getElementById('password').value == 'wmad20ali20') {
+           
+          document.location.href = "Ali_calendar.html";
+        }  else if (document.getElementById('password').value == 'wmad20aid20') {
+           
+          document.location.href = "Aiden_calendar.html";
+        } else if (document.getElementById('password').value == 'wmad20zha20') {
+           
+          document.location.href = "Zhaleh_calendar.html";
+        } else if (document.getElementById('password').value == 'wmad20fra20') {
+           
+          document.location.href = "Francois_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20jar20') {
+           
+          document.location.href = "Jaren_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20ima20') {
+           
+          document.location.href = "Iman_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20anp20') {
+           
+          document.location.href = "AnaPaula_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20stp20') {
+           
+          document.location.href = "Stephen_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20hus20') {
+           
+          document.location.href = "Hussein_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20jor20') {
+           
+          document.location.href = "Jordi_calendar.html";
+        } else if (document.getElementById('password').value == 'dms20fer20') {
+           
+          document.location.href = "Fernanda_calendar.html";
+        } else if (document.getElementById('password').value == 'nss20dom20') {
+           
+          document.location.href = "Dominic_calendar.html";
+         } else if (document.getElementById('password').value == 'test') {
+           
+          document.location.href = "test.html";
+        }else {
+         alert('Wrong Password!');
+          return false;
+        }
+       }
+
+  </script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
